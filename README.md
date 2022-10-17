@@ -22,3 +22,16 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+    ITLISASTHPMA
+    ACFIFTEENDCO
+    TWENTYFYFIVEXW
+    THIRTYFYFTENOS
+    MINUTESETOUR
+    PASTORUFOURT
+    SEVENXTWELVE
+    NINEFIVECTWO
+    EIGHTFELEVEN
+    SIXTHREEONEG
+    TENSEZO'CLOCK
