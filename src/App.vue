@@ -1,5 +1,5 @@
 <template>
-  <WordClock />
+  <WordClock :minutes="getMinutes()" :hours="getHours()" />
 </template>
 
 <script lang="ts">
@@ -11,6 +11,14 @@ export default defineComponent({
   components: {
     WordClock,
   },
+  methods: {
+    getHours() {
+      return new Date().getHours();
+    },
+    getMinutes() {
+      return new Date().getMinutes();
+    }
+  }
 });
 </script>
 
