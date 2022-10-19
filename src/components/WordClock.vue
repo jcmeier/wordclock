@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{ hours}} : {{ minutes }}
     <div><span class="bold">IT</span>L<span class="bold">IS</span>ASTHPMA</div>
     <div>AC<span :class="{ bold: isFifteenMinutes}">FIFTEEN</span>DCO</div>
     <div><span :class="{ bold: isTwentyFiveMinutes}"><span :class="{ bold: isTwentyMinutes}">TWENTY</span><span
