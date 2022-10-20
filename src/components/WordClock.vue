@@ -31,7 +31,7 @@ export default defineComponent({
       return this.currentMinutes > 4 && this.currentMinutes < 35;
     },
     isTo(): boolean {
-      return this.currentMinutes > 35;
+      return this.currentMinutes >= 35;
     },
     isHour(hour: number): boolean {
       return this.currentHours == hour;
