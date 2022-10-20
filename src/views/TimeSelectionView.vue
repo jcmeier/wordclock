@@ -55,7 +55,7 @@ export default defineComponent({
       get () {
         return this.$store.state.currentHours;
       },
-      set (value) {
+      set (value : number) {
         this.$store.commit('setHours', value);
       }
     },
@@ -63,7 +63,7 @@ export default defineComponent({
       get () {
         return this.$store.state.currentMinutes;
       },
-      set (value) {
+      set (value : number) {
         this.$store.commit('setMinutes', value);
       }
     }
@@ -72,15 +72,6 @@ export default defineComponent({
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
 select {
   padding: 5px;
   border: solid 1px #eee;
