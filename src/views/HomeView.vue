@@ -1,5 +1,5 @@
 <template>
-  <WordClock :minutes="minutes" :hours="hours" />
+  <WordClock />
 </template>
 
 <script lang="ts">
@@ -13,14 +13,13 @@ export default defineComponent({
   },
   methods: {
     setTime() {
-      this.hours = new Date().getHours();
-      this.minutes = new Date().getMinutes();
+      this.$store.commit("setHours", new Date().getHours());
+      this.$store.commit("setMinutes", new Date().getMinutes());
     }
   },
   mounted() {
-    setInterval(() => this.setTime(), 1000)
+    this.$store.commit("setIntervalId", setInterval(() => this.setTime(), 1000));
   },
-  
   data() {
     return {
       hours: new Date().getHours(),
