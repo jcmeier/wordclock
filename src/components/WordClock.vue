@@ -6,7 +6,7 @@
           :class="{ bold: isFiveMinutes}">FIVE</span></span>XW</div>
     <div><span :class="{ bold: isThirtyMinutes}">THIRTY</span>F<span :class="{ bold: isTenMinutes}">TEN</span>OS</div>
     <div><span :class="{ bold: isToOrPast }">MINUTES</span>E<span :class="{ bold: isTo() }">TO</span>UR</div>
-    <div><span :class="{ bold : isPast() }">PAST</span>ORUFOURT</div>
+    <div><span :class="{ bold : isPast() }">PAST</span>ORU<span :class="{bold : isFourHours }">FOUR</span>T</div>
     <div><span :class="{ bold : isSevenHours }">SEVEN</span>X<span :class="{ bold : isTwelveHours }">TWELVE</span></div>
     <div><span :class="{ bold : isNineHours }">NINE</span><span :class="{ bold : isFiveHours }">FIVE</span>C<span
         :class="{ bold : isTwoHours }">TWO</span></div>
