@@ -1,6 +1,6 @@
 <template>
   <router-view/>
-  <nav>
+  <nav :class="{invisible: $route.query.hidenav === 'true'}">
     <router-link to="/">Home</router-link> |
     <router-link to="/timeselection">Time selection</router-link> |
     <router-link to="/about">About</router-link>
@@ -33,5 +33,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.invisible {
+  display: none;
 }
 </style>
