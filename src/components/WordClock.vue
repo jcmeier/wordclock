@@ -44,8 +44,7 @@ export default defineComponent({
   },
   computed: {
     hoursAndMinutes() : string {
-      return `10:25`;
-      // return `${this.currentHours}:${this.currentMinutes}`;
+      return `${this.currentHours}:${this.currentMinutes}`;
     },
     isFiveMinutes() : boolean  { return this.isInMinuteRange(5) || this.isInMinuteRange(55) },
     isTenMinutes() : boolean { return this.isInMinuteRange(10) || this.isInMinuteRange(50) },
