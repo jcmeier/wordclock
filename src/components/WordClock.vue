@@ -44,7 +44,8 @@ export default defineComponent({
   },
   computed: {
     hoursAndMinutes() : string {
-      return `${this.currentHours}:${this.currentMinutes}`;
+      return `10:25`;
+      // return `${this.currentHours}:${this.currentMinutes}`;
     },
     isFiveMinutes() : boolean  { return this.isInMinuteRange(5) || this.isInMinuteRange(55) },
     isTenMinutes() : boolean { return this.isInMinuteRange(10) || this.isInMinuteRange(50) },
@@ -85,9 +86,13 @@ div {
 .oclock {
   letter-spacing: 5px !important;
 }
-
+span {
+  transition: color 0.3s ease, font-weight 0.1s linear;
+}
 .bold {
   font-weight: bold;
   color: red;
+
+  transition: all 0.3s ease !important;
 }
 </style>
