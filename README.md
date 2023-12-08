@@ -1,6 +1,13 @@
-# wordclock
+# ⏰ Wordclock
+
+It is a beautiful clock based on words which you can run on your browser.
+See here how it looks in action:
+![Wordclock in action](wordclock.png)
 
 ## Project setup
+
+Run the following command to install the project:
+
 ```
 npm install
 ```
@@ -19,19 +26,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-    ITLISASTHPMA
-    ACFIFTEENDCO
-    TWENTYFYFIVEXW
-    THIRTYFYFTENOS
-    MINUTESETOUR
-    PASTORUFOURT
-    SEVENXTWELVE
-    NINEFIVECTWO
-    EIGHTFELEVEN
-    SIXTHREEONEG
-    TENSEZO'CLOCK
