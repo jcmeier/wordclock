@@ -2,6 +2,7 @@
 
 It is a beautiful clock based on words which you can run on your browser.
 See here how it looks in action:
+
 ![Wordclock in action](wordclock.png)
 
 ## Project setup
