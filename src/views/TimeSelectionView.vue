@@ -17,7 +17,6 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { mapState } from 'vuex'
 import WordClock from "../components/WordClock.vue";
 
 export default defineComponent({
