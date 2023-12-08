@@ -1,4 +1,4 @@
-import { createStore, MutationTree, Store } from 'vuex'
+import { createStore, MutationTree } from 'vuex'
 
 export class State {
   public currentHours : number =  new Date().getHours();
