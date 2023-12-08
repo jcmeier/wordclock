@@ -86,8 +86,26 @@ div {
   letter-spacing: 5px !important;
 }
 
+span {
+  display: inline-block;
+  transition: color 0.3s ease, font-weight 0.1s linear;
+}
 .bold {
   font-weight: bold;
   color: red;
+
+  transition: all 0.3s ease !important;
+  animation: popupText 0.3s forwards;
+}
+@keyframes popupText {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 </style>
